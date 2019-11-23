@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(235, 237, 238);
+    background-color: rgb(245, 251, 255);
     margin-left: 10%;
     margin-right: 10%;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,14 +7,27 @@ body {
 
 h1 {
     float: left;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 4%;
-    text-decoration: underline;
-    transform: rotate(30deg);
 }
 
 h2 {
+    padding-left: 40px;
+    padding-top: 18%;
     margin: 0;
+}
+
+h3 {
+    color: white;
+    background-color: rgb(67, 94, 173) ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-right: 200px;
+    border-radius: 5px;
 }
 
 header {
@@ -24,9 +37,13 @@ header {
     border-width: 5px;
     border-color: rgb(58, 58, 60);
     color: white;
-    height: 150px;
+    height: 100px;
     background-color: rgb(58, 58, 60);
     margin-bottom: 3px;
+}
+
+header a{
+    color: white;
 }
 
 nav {
@@ -34,20 +51,35 @@ nav {
 }
 
 nav a {
+    height: 60px;
     color: white;
-    font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
-    width: 120px;
-    padding-top: 60px;
+    width: 100px;
+    padding-top: 40px;
     float: right;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    background-color:white;
+    color: rgb(58, 58, 60);
+}
+
+footer {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(58, 58, 60);
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 #logo {
-    height: 150px;
+    height: 100px;
     float: left;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -60,11 +92,9 @@ nav a {
     background-image: url(montagne.jpg);
     background-repeat: no-repeat;
     width: auto;
-    height: 700px;
-    padding-top: 170px;
-    padding-left: 40px;
+    height: 550px;
     text-shadow: 5px,5px black;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .hrvert {
@@ -73,5 +103,5 @@ nav a {
     margin-top: 0px;
     float:right;
     width: 1px;
-    height: 155px;
+    height: 100px;
 }
