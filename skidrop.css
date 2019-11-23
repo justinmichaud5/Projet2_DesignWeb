@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(235, 237, 238);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    float: left;
+    padding-top: 20px;
+    padding-left: 4%;
+    text-decoration: underline;
+    transform: rotate(30deg);
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(58, 58, 60);
+    color: white;
+    height: 150px;
+    background-color: rgb(58, 58, 60);
+    margin-bottom: 3px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    width: 120px;
+    padding-top: 60px;
+    float: right;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logo {
+    height: 150px;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#montagne {
+    color: white;
+    background-size: 100%, 100%;
+    margin: 0px;
+    background-image: url(montagne.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 700px;
+    padding-top: 170px;
+    padding-left: 40px;
+    text-shadow: 5px,5px black;
+    font-size: 2em;
+}
+
+.hrvert {
+    background-color:white;
+    border: none;
+    margin-top: 0px;
+    float:right;
+    width: 1px;
+    height: 155px;
+}
