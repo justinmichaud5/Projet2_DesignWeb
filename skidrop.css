@@ -104,6 +104,13 @@ footer {
     object-fit: cover;
 }
 
+#montagneimage_mobile {
+    display: none;
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .hrvert {
     background-color:white;
     border: none;
@@ -114,7 +121,83 @@ footer {
 }
 
 @media only screen and (max-width: 1035px) {
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    h1 {
+        padding-top: 5px;
+        margin: 0px;
+        font-size: 2em;
+    }
+
+    h2 {
+        left: 40px;
+    }
+
+    header {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        height: 50px;
+        z-index: 1000;
+    }
+
+    nav {
+        display: none;
+        margin-top: 60px;
+        float: left;
+    }
+
+    nav a {
+        clear: both;
+        height: 20px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    .hrvert {
+        display: none;
+    }
+
     #logo {
-        height: 0px;
+        height: 50px;
+    }
+
+    #montagneimage {
+        display: none;
+    }
+
+    #montagneimage_mobile {
+        display: inline;
+    }
+
+    #texteaccueil {
+        font-size: 0.8em;
+    }
+
+    #navmobile {
+        float: right;
+        height: 25px;
+        width: 25px;
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+
+    #navmobile:hover {
+        background-color: #DCDDDF;
+    }
+
+    #navmobile:hover .barre {
+        background-color: rgb(58, 58, 60);
+    }
+
+    .barre {
+        background-color: #ECEDEF;
+        height: 2px;
+        margin: 4px 2px;
     }
 }

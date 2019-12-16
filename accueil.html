@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <header>
+    <header id="myHeader">
         <a href="accueil.html"><img src="Logo.png" id="logo" alt="Logo">
             <h1>Ski Drop</h1>
         </a>
 
-        <nav>
+        <nav id="myNav">
             <a href="apropos.html">À Propos</a>
             <hr class="hrvert">
             <a href="design.html">Design</a>
@@ -23,12 +23,22 @@
             <hr class="hrvert">
             <a href="commande.html">Commander</a>
         </nav>
+
+        <a href="javascript:void(0);" class="icone" onclick="myFunction()">
+            <div id="navmobile">
+                <div class="barre"></div>
+                <div class="barre"></div>
+                <div class="barre"></div>
+            </div>
+        </a>
     </header>
 
     <main>
         <div id="montagne">
             <img src="montagne.jpg" alt="montagne" id="montagneimage">
-            <h2>
+            <img src="montagne_mobile.jpg" alt="montagne_mobile"
+            id="montagneimage_mobile">
+            <h2 id="texteaccueil">
                 Descendez les montagnes<br>
                 On s'occupe de descendre les prix
             </h2>
@@ -68,6 +78,21 @@
         Copyright &copy; 2019 Ski Drop inc. |
         <a href="mailto:support@skidrop.com">support@skidrop.com</a> | <a href="contacte.html">Contactez-Nous</a>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNav");
+            var y = document.getElementById("myHeader");
+            if(x.style.display === "block") {
+                x.style.display = "none";
+                y.style.height = "50px";
+            }
+            else {
+                x.style.display = "block";
+                y.style.height = "200px";
+            }
+        }
+    </script>
 </body>
 
 </html>
