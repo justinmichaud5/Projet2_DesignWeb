@@ -68,6 +68,14 @@ nav a:hover {
     color: rgb(58, 58, 60);
 }
 
+tr:nth-child(odd) {
+    background-color: #435EAD;
+}
+
+tr:nth-child(even) {
+    background-color: #4385C4;
+}
+
 footer a{
     color: white;
 }
