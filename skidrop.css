@@ -11,13 +11,6 @@ h1 {
     padding-left: 4%;
 }
 
-h2 {
-    margin: 0px;
-    position: absolute;
-    top: 22%;
-    left: 60px;
-}
-
 h3 {
     color: white;
     background-color: rgb(67, 94, 173) ;
@@ -97,7 +90,52 @@ footer {
     border-bottom-right-radius: 20px;
 }
 
-#montagne {
+#texteaccueil {
+    margin: 0px;
+    position: absolute;
+    top: 22%;
+    left: 60px;
+}
+
+#textepropos {
+    color: rgb(76, 78, 84);
+    margin: 0px;
+    position: absolute;
+    top: 40%;
+    left: 60px;
+}
+
+#textedesign {
+    color: rgb(76, 78, 84);
+    margin: 0px;
+    position: absolute;
+    top: 80%;
+    left: 60px;
+}
+
+#texteproduits {
+    margin: 0px;
+    position: absolute;
+    top: 16%;
+    left: 60px;
+}
+
+#textecommande {
+    color: rgb(76, 78, 84);
+    margin: 0px;
+    position: absolute;
+    top: 56%;
+    left: 60px;
+}
+
+#montagneimage_mobile {
+    display: none;
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.toppage {
     position: relative;
     color: white;
     width: 100%;
@@ -106,14 +144,7 @@ footer {
     margin: 0px;
 }
 
-#montagneimage {
-    max-height: 600px;
-    width: 100%;
-    object-fit: cover;
-}
-
-#montagneimage_mobile {
-    display: none;
+.topimage {
     max-height: 600px;
     width: 100%;
     object-fit: cover;
