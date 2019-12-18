@@ -176,6 +176,31 @@ footer {
     text-align: center;
 }
 
+#contacterForm {
+    width: 100%;
+    display: table;
+}
+
+#contacterInfos {
+    float:left;
+    width: 45%;
+}
+
+#contacterTexte {
+    padding-left: 10px;
+    float: left;
+    width: 45%;
+}
+
+#nom, #email{
+    width: 90%;
+}
+
+
+#message {
+    width: 100%;
+}
+
 .toppage {
     position: relative;
     color: white;
@@ -192,12 +217,21 @@ footer {
 }
 
 .hrvert {
-    background-color:white;
+    background-color:black;
     border: none;
     margin-top: 0px;
     float:left;
     width: 1px;
     height: 100px;
+}
+
+.hrvert2 {
+    background-color:black;
+    border: none;
+    margin-top: 0px;
+    float:left;
+    width: 1px;
+    height: 300px;
 }
 
 .skirow {

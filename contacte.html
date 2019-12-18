@@ -46,7 +46,11 @@
             </h2>
         </div>
         <hr>
-        <form method="post" action="">
+        <h3>Commentaire</h3>
+        <hr>
+        <form name="commentaire" method="post" action=""
+        id="contacterForm" onsubmit="formValide()">
+            <div id="contacterInfos">
             <label for="nom">Nom*<br></label>
             <input type="text" name="name" id="nom" required="required">
             <br><br>
@@ -59,21 +63,27 @@
             <label for="dispo">Disponibilité</label>
             <input type="radio" name="question" id="dispo" value="dispo"><br>
             <label for="autre">Autre</label>
-            <input type="radio" name="question" id="autre" value="autre">
+            <input type="radio" name="question" id="autre" value="autre"
+            checked>
             <br><br>
             <span>Quels sont les sports d'hiver que vous pratiquez?<br></span>
             <label for="ski">Ski</label>
-            <input type="checkbox" name="type" id="ski" value="ski" checked>
+            <input type="checkbox" name="type" id="ski" value="ski">
             <br>
             <label for="snowboard">Snowboard</label>
             <input type="checkbox" name="type" id="snowboard"
             value="snowboard"><br>
             <label for="tube">Tube</label>
             <input type="checkbox" name="type" id="tube" value="tube"><br><br>
-            <label for="message">Message*<br></label>
-            <textarea id="message" rows="12" cols="60"
-            required="required"></textarea><br><br>
-            <input type="submit" value="Envoyer"><br><br>
+            </div>
+            <hr class="hrvert2">
+            <div id="contacterTexte">
+                <label for="message">Message* (500 caractères maximum)</label>
+                <br>
+                <textarea id="message" rows="12" cols="55"
+                required="required"></textarea><br><br>
+                <input type="submit" value="Envoyer">
+            </div>
         </form>
     </main>
 
@@ -93,6 +103,22 @@
             else {
                 x.style.display = "block";
                 y.style.height = "220px";
+            }
+        }
+
+        function formValide() {
+            if (!document.forms['commentaire'].email.value.includes("@")) {
+                alert('Veuillez entrer une adresse courriel valide');
+                return false;
+            }
+
+            var tailleMessage =
+                document.forms['commentaire'].message.value.length;
+
+            if (tailleMessage > 500) {
+                alert("Message trop long, veuillez le raccourcir\n" +
+                       "Nombre de caractères : " + tailleMessage);
+                return false;
             }
         }
     </script>
