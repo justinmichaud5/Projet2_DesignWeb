@@ -81,8 +81,6 @@ table tr td:nth-child(3){
     text-align: center;
 }
 
-
-
 table a{
     color: white;
 }
@@ -139,6 +137,7 @@ footer {
 }
 
 #textecommande {
+    text-shadow: 1px 1px 1px white;
     color: rgb(76, 78, 84);
     margin: 0px;
     position: absolute;
@@ -336,6 +335,10 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+    .toppage {
+        display:none;
+    }
+
     .skiconteneur {
         width: 99%;
     }
