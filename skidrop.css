@@ -70,11 +70,21 @@ nav a:hover {
 }
 
 tr:nth-child(odd) {
-    background-color: #435EAD;
+    background-color: rgb(115, 137, 202);
 }
 
 tr:nth-child(even) {
     background-color: #4385C4;
+}
+
+table tr td:nth-child(3){
+    text-align: center;
+}
+
+
+
+table a{
+    color: white;
 }
 
 footer a{
@@ -146,6 +156,17 @@ footer {
 
 #tablecommander {
     width: 100%;
+}
+
+#tablecommander th {
+    background-color:  rgb(49, 80, 172);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#tablecommander td:nth-child(odd) {
+    text-align: center;
 }
 
 .toppage {
@@ -317,5 +338,9 @@ footer {
 @media only screen and (max-width: 500px) {
     .skiconteneur {
         width: 99%;
+    }
+
+    #tablecommander td:nth-child(2), #tablecommander th:nth-child(2) {
+        display: none;
     }
 }
