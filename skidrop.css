@@ -128,7 +128,8 @@ footer {
     left: 60px;
 }
 
-#montagneimage_mobile {
+#montagneimage_mobile, #skipropos_mobile, #skiproduits_mobile,
+#snowdesign_mobile, #montagnecommande_mobile {
     display: none;
     max-height: 600px;
     width: 100%;
@@ -198,24 +199,31 @@ footer {
         margin-top: 0px;
     }
 
-    .hrvert {
-        display: none;
-    }
-
     #logo {
         height: 50px;
     }
 
-    #montagneimage {
-        display: none;
-    }
-
-    #montagneimage_mobile {
+    #montagneimage_mobile, #skipropos_mobile, #skiproduits_mobile,
+    #snowdesign_mobile, #montagnecommande_mobile {
         display: inline;
     }
 
-    #texteaccueil {
+    #texteaccueil, #textepropos, #textedesign, #texteproduits, #textecommande {
         font-size: 0.8em;
+    }
+
+    #textepropos {
+        top: 30%;
+        left: 40px;
+    }
+
+    #textedesign {
+        top: 10%;
+        left: 40px;
+    }
+
+    #textecommande {
+        top: 20%;
     }
 
     #navmobile {
@@ -232,6 +240,14 @@ footer {
 
     #navmobile:hover .barre {
         background-color: rgb(58, 58, 60);
+    }
+
+    .topimage {
+        display: none;
+    }
+
+    .hrvert {
+        display: none;
     }
 
     .barre {
