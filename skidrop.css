@@ -107,7 +107,7 @@ footer {
 }
 
 #texteaccueil {
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
     margin: 0px;
     position: absolute;
     top: 22%;
@@ -133,7 +133,7 @@ footer {
 }
 
 #texteproduits {
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
     margin: 0px;
     position: absolute;
     top: 16%;
