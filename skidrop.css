@@ -144,6 +144,10 @@ footer {
     object-fit: cover;
 }
 
+#tablecommander {
+    width: 100%;
+}
+
 .toppage {
     position: relative;
     color: white;
