@@ -146,8 +146,16 @@ footer {
     left: 60px;
 }
 
+#textecontact {
+    color: rgb(76, 78, 84);
+    margin: 0px;
+    position: absolute;
+    top: 18%;
+    left: 60px;
+}
+
 #montagneimage_mobile, #skipropos_mobile, #skiproduits_mobile,
-#snowdesign_mobile, #montagnecommande_mobile {
+#snowdesign_mobile, #montagnecommande_mobile, #skicontact_mobile {
     display: none;
     max-height: 600px;
     width: 100%;
@@ -268,11 +276,12 @@ footer {
     }
 
     #montagneimage_mobile, #skipropos_mobile, #skiproduits_mobile,
-    #snowdesign_mobile, #montagnecommande_mobile {
+    #snowdesign_mobile, #montagnecommande_mobile, #skicontact_mobile {
         display: inline;
     }
 
-    #texteaccueil, #textepropos, #textedesign, #texteproduits, #textecommande {
+    #texteaccueil, #textepropos, #textedesign,
+    #texteproduits, #textecommande, #textecontact {
         font-size: 0.8em;
     }
 
