@@ -107,6 +107,7 @@ footer {
 }
 
 #texteaccueil {
+    text-shadow: 1px 1px 1px white;
     margin: 0px;
     position: absolute;
     top: 22%;
@@ -114,6 +115,7 @@ footer {
 }
 
 #textepropos {
+    text-shadow: 1px 1px 1px white;
     color: rgb(76, 78, 84);
     margin: 0px;
     position: absolute;
@@ -122,6 +124,7 @@ footer {
 }
 
 #textedesign {
+    text-shadow: 1px 1px 1px white;
     color: rgb(76, 78, 84);
     margin: 0px;
     position: absolute;
@@ -130,6 +133,7 @@ footer {
 }
 
 #texteproduits {
+    text-shadow: 1px 1px 1px white;
     margin: 0px;
     position: absolute;
     top: 16%;
@@ -146,6 +150,7 @@ footer {
 }
 
 #textecontact {
+    text-shadow: 1px 1px 1px white;
     color: rgb(76, 78, 84);
     margin: 0px;
     position: absolute;
